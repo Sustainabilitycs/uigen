@@ -1,0 +1,163 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e51]:
+            - generic [ref=e54]: Create a pricing card component with a title, price, features list, and a call-to-action button
+            - img [ref=e57]
+          - generic [ref=e78]:
+            - img [ref=e81]
+            - generic [ref=e86]:
+              - generic [ref=e89]: str_replace_editor
+              - separator [ref=e90]
+              - generic [ref=e93]: str_replace_editor
+              - separator [ref=e94]
+              - generic [ref=e95]:
+                - paragraph [ref=e96]:
+                  - text: Done! Created a reusable
+                  - code [ref=e104]: PricingCard
+                  - text: "component with:"
+                - list [ref=e98]:
+                  - listitem [ref=e99]: Title, price, and period
+                  - listitem [ref=e100]: Features list with checkmark icons
+                  - listitem [ref=e101]: Customizable CTA button with primary/secondary variants
+                  - listitem [ref=e102]: Optional highlight styling for featured plans
+                  - listitem [ref=e103]: Responsive grid layout in App.jsx with 3 example pricing tiers
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [ref=e35]
+          - tab "Code" [active] [selected] [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - generic [ref=e105]:
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e113] [cursor=pointer]:
+              - img [ref=e114]
+              - img [ref=e116]
+              - generic [ref=e118]: components
+            - generic [ref=e121] [cursor=pointer]:
+              - img [ref=e122]
+              - generic [ref=e127]: PricingCard.jsx
+          - generic [ref=e129] [cursor=pointer]:
+            - img [ref=e130]
+            - generic [ref=e135]: App.jsx
+        - separator [ref=e136]
+        - code [ref=e141]:
+          - generic [ref=e142]:
+            - generic [ref=e144]:
+              - generic [ref=e147]: "1"
+              - generic [ref=e151]: "2"
+              - generic [ref=e152]:
+                - generic [ref=e153] [cursor=pointer]: 
+                - generic [ref=e154]: "3"
+              - generic [ref=e155]:
+                - generic [ref=e156] [cursor=pointer]: 
+                - generic [ref=e157]: "4"
+              - generic [ref=e158]:
+                - generic [ref=e159] [cursor=pointer]: 
+                - generic [ref=e160]: "5"
+              - generic [ref=e162]:
+                - generic [ref=e163] [cursor=pointer]: 
+                - generic [ref=e164]: "6"
+              - generic [ref=e166]:
+                - generic [ref=e167] [cursor=pointer]: 
+                - generic [ref=e168]: "7"
+              - generic [ref=e170]: "8"
+              - generic [ref=e172]: "9"
+              - generic [ref=e174]: "10"
+              - generic [ref=e175]:
+                - generic [ref=e176] [cursor=pointer]: 
+                - generic [ref=e177]: "11"
+              - generic [ref=e179]: "12"
+              - generic [ref=e181]: "13"
+              - generic [ref=e183]: "14"
+              - generic [ref=e185]: "15"
+              - generic [ref=e187]: "16"
+              - generic [ref=e189]: "17"
+              - generic [ref=e191]: "18"
+              - generic [ref=e193]: "19"
+              - generic [ref=e194]:
+                - generic [ref=e195] [cursor=pointer]: 
+                - generic [ref=e196]: "20"
+              - generic [ref=e198]: "21"
+              - generic [ref=e200]: "22"
+              - generic [ref=e202]: "23"
+              - generic [ref=e203]:
+                - generic [ref=e204] [cursor=pointer]: 
+                - generic [ref=e205]: "24"
+              - generic [ref=e207]: "25"
+              - generic [ref=e209]: "26"
+              - generic [ref=e211]: "27"
+              - generic [ref=e213]: "28"
+              - generic [ref=e215]: "29"
+              - generic [ref=e217]: "30"
+              - generic [ref=e219]: "31"
+              - generic [ref=e221]: "32"
+              - generic [ref=e223]: "33"
+              - generic [ref=e225]: "34"
+              - generic [ref=e226]:
+                - generic [ref=e227] [cursor=pointer]: 
+                - generic [ref=e228]: "35"
+              - generic [ref=e230]: "36"
+              - generic [ref=e232]: "37"
+              - generic [ref=e234]: "38"
+              - generic [ref=e235]:
+                - generic [ref=e236] [cursor=pointer]: 
+                - generic [ref=e237]: "39"
+            - generic [ref=e463]:
+              - generic [ref=e465]: import PricingCard from '@/components/
+              - generic [ref=e467]: PricingCard';
+              - generic [ref=e470]: "export default function App() {"
+              - generic [ref=e472]: return (
+              - generic [ref=e474]: <div className="min-h-screen bg-gray-50
+              - generic [ref=e476]: flex items-center justify-center p-4">
+              - generic [ref=e478]: <div className="grid grid-cols-1
+              - generic [ref=e480]: md:grid-cols-3 gap-8 max-w-6xl">
+              - generic [ref=e482]: <PricingCard
+              - generic [ref=e484]: title="Starter"
+              - generic [ref=e486]: price="$29"
+              - generic [ref=e488]: period="/month"
+              - generic [ref=e490]: "features={["
+              - generic [ref=e492]: "'Up to 10 projects',"
+              - generic [ref=e494]: "'5GB storage',"
+              - generic [ref=e496]: "'Basic support',"
+              - generic [ref=e498]: "'Community access'"
+              - generic [ref=e500]: "]}"
+              - generic [ref=e502]: buttonText="Get Started"
+              - generic [ref=e504]: buttonVariant="secondary"
+              - generic [ref=e506]: />
+              - generic [ref=e508]: <PricingCard
+              - generic [ref=e510]: title="Professional"
+              - generic [ref=e512]: price="$79"
+              - generic [ref=e514]: period="/month"
+              - generic [ref=e516]: "features={["
+              - generic [ref=e518]: "'Unlimited projects',"
+              - generic [ref=e520]: "'500GB storage',"
+              - generic [ref=e522]: "'Priority support',"
+              - generic [ref=e524]: "'Advanced analytics',"
+              - generic [ref=e526]: "'Team collaboration'"
+              - generic [ref=e528]: "]}"
+              - generic [ref=e530]: buttonText="Start Free Trial"
+              - generic [ref=e532]: buttonVariant="primary"
+              - generic [ref=e534]: highlighted
+              - generic [ref=e536]: />
+              - generic [ref=e538]: <PricingCard
+              - generic [ref=e540]: title="Enterprise"
+              - generic [ref=e542]: price="Custom"
+              - generic [ref=e544]: period="pricing"
+              - generic [ref=e546]: "features={["
+            - textbox "Editor content" [ref=e548]
+  - alert [ref=e50]
+  - generic [ref=e549]:
+    - alert
+    - alert
